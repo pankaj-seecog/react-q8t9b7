@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { render } from 'react-dom';
 import Hello from './Hello';
 import './style.css';
-import Add from './Add'
+import Average from './Average'
 class App extends Component {
   constructor() {
     super();
@@ -23,4 +23,4 @@ class App extends Component {
   }
 }
 
-render(<Add />, document.getElementById('root'));
+render(<Average />, document.getElementById('root'));
